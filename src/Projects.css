@@ -1,0 +1,113 @@
+.projects-title {
+    font-family: 'Archivo Black', sans-serif;
+    padding: 20px;
+    color: #351852;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.project-body {
+    display: flex;  
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.project-card {
+    width: 300px;
+    padding-bottom: 30px;
+}
+img {
+    width: 300px;
+}
+
+.project-text {
+    padding: 15px;
+}
+.project-card,
+.project-text p {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
+
+.project-text h1 {
+    padding: 20px 0;
+    color: #3E3E3E;
+    font-family: 'Archivo Black', sans-serif;
+}
+
+.project-text p {
+    color: #3E3E3E;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+.project-text a {
+    padding-right: 10px;
+    color: #3E3E3E;
+    text-decoration: none;
+    font-size: 20px;
+    position: relative;
+    display: inline-block;
+}
+
+.project-text a:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.project-text a:hover {
+    color: #3E3E3E !important;
+    text-decoration: bottom left; 
+}
+
+.project-text a:hover::after {
+    transform: scaleX(1);
+}
+
+.project-text a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #3E3E3E;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+   
+@media only screen and (min-width: 768px) {
+
+    .projects-title{
+        padding: 40px 40px;
+    }
+
+    .projects-title h1{
+        font-size: 80px;
+        padding-top: 250px;
+    }
+    .project-body {
+        display: flex;
+        flex-direction: row;
+        gap: 50px;
+        /* justify-content: space-between; */
+        align-items: center;
+        padding: 100px 250px;
+        flex-wrap: wrap;
+    }
+    .project-card {
+        width: 450px;
+        padding-bottom: 30px;
+    }
+    .project-card img {
+        width: 450px;
+    }
+    
+}
