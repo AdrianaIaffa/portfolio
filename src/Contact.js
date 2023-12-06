@@ -59,7 +59,7 @@ export default function Contact() {
         <div className='contact'>
             <h2>Get In Touch!</h2>
             <p>I have recently finished a Software Engineering course with General Assembly
-              and I am excited to put all my skills to use! If you have any qyestions, request or
+              and I am excited to put all my skills to use! If you have any questions, requests or
               freelance opportunities, please do not hesitate to contact me.
             </p>
             <div className='contact-details'>
