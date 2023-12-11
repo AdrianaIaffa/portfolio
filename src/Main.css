@@ -16,7 +16,13 @@
 .nav-icons a {
     color:#F4E98C;
 }
-
+.profile-picture {
+    display: flex;  
+    justify-content: center;
+}
+.profile-picture img {
+    width: 200px;
+}
 .banner {
     padding: 20px;
 }

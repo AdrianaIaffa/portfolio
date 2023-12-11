@@ -56,6 +56,23 @@ export default function Contact() {
           ))}
         </div>
       </div>
+      <div className='experience'>
+        <h2>Experience</h2>
+        <div>
+          <h3>General Assembly</h3>
+          <p>A 12 week full time course focused on full stack development. Daily lectures would be followed by labs, with a project at the end of each module. 420 hours of professional training in an Agile environment</p>
+        </div>
+        <div>
+          <h3>Freelance photographer</h3>
+          <p>Working as a photographer and also sometimes as an art director for various clients in e-commerce as well as creative projects. 
+            Some of my clients include Selfridges, Harrods, LN-CC, Ted Baker and Hush</p>
+        </div>
+        <div>
+          <h3>Senior Photographer, Matchesfashion.com</h3>
+          <p>Managed a team of photographers and freelancers, overseeing performance, training, and recruitment. Collaborated cross-functionally to ensure a seamless customer experience, while also managing equipment inventory and contributing 
+            to weekly content production.</p>
+        </div>
+      </div>
         <div className='contact'>
             <h2>Get In Touch!</h2>
             <p>I have recently finished a Software Engineering course with General Assembly

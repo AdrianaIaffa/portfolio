@@ -56,6 +56,9 @@ export default function Main() {
       </div>
 
       <div className="banner">
+      {/* <div className="profile-picture">
+        <img src="/Profile pic.jpeg" alt="Profile" />
+      </div> */}
      <motion.div
       className="box"
       initial={{ opacity: 0, scale: 0.5 }}
@@ -75,6 +78,8 @@ export default function Main() {
       {bannerItems.map((item, index) => (
         <BannerItem key={index} title={item} />
       ))}
+      <div>
+      </div>
     </div>
     </div>
   );
